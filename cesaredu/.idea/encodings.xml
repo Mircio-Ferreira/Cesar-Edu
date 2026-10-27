@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/aplicacao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dominio-avaliacao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dominio-compartilhado/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dominio-cursos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dominio-matriculas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dominio-progresso/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dominio-solicitacoes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dominio-trilhas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infraestrutura/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ui-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ui-frontend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ui-frontend/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
