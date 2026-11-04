@@ -1,4 +1,148 @@
-./idea
+# ============================================================
+# Spring Boot | Java | DDD | BDD | TDD
+# Maven / Gradle | IntelliJ / VS Code / Eclipse
+# Coloque este arquivo na raiz do repositorio.
+# ============================================================
+
+# --- Java: arquivos compilados e diagnosticos ---
+*.class
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
+*.jfr
+
+# --- Maven (incluindo modulos aninhados) ---
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+
+# --- Gradle (incluindo modulos aninhados) ---
+.gradle/
+**/build/
+!**/src/**/build/
+**/gradle-app.setting
+**/.gradletasknamecache
+
+# NAO ignorar os wrappers do Maven e do Gradle:
+# mvnw, mvnw.cmd, .mvn/wrapper/, gradlew, gradlew.bat,
+# gradle/wrapper/gradle-wrapper.jar e *.properties do wrapper.
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# --- Visual Studio Code ---
+.vscode/
+.history/
+
+# --- Eclipse / STS ---
+.project
+.classpath
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+bin/
+
+# --- Spring Boot: configs locais e segredos ---
+# Mantenha versionados application.yml/properties e profiles
+# compartilhados (application-dev.yml, application-test.yml etc.).
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
+**/application-*.local.yml
+**/application-*.local.yaml
+**/application-*.local.properties
+**/application-secret.yml
+**/application-secret.yaml
+**/application-secret.properties
+**/application-secrets.yml
+**/application-secrets.yaml
+**/application-secrets.properties
+**/bootstrap-local.yml
+**/bootstrap-local.yaml
+**/bootstrap-local.properties
+
+# --- Variaveis de ambiente ---
 .env
-env
-./env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.*.example
+!.env.*.sample
+
+# --- Credenciais e certificados privados ---
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.asc
+*credentials*.json
+*service-account*.json
+
+# --- Testes: JUnit / TestNG / JaCoCo / PIT ---
+**/test-output/
+**/testng-output/
+**/jacoco.exec
+**/jacoco*.exec
+**/jacoco*.ec
+**/pit-reports/
+**/mutation-reports/
+
+# --- BDD: Cucumber / Serenity ---
+**/cucumber-reports/
+**/cucumber-report/
+**/cucumber.json
+**/cucumber.xml
+**/*.cucumber.ndjson
+**/serenity-reports/
+**/serenity-output/
+
+# --- Testes e relatorios: Allure ---
+**/allure-results/
+**/allure-report/
+
+# --- Arquivos temporarios de banco local (H2 / SQLite) ---
+*.mv.db
+*.trace.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# --- Logs e arquivos temporarios locais ---
+logs/
+**/tmp/
+**/temp/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+
+# --- Docker: ajustes e dados locais especificos ---
+**/docker-compose.local.yml
+**/docker-compose.local.yaml
+**/compose.local.yml
+**/compose.local.yaml
+
+# --- Sistema operacional ---
+.DS_Store
+.AppleDouble
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
