@@ -19,49 +19,7 @@
 
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>cesaredu-dominio-acessointerdisciplinar</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>cesaredu-dominio-analisegestor</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>cesaredu-dominio-aprendizagemaluno</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>cesaredu-dominio-avaliacaoprova</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>cesaredu-dominio-catalogocursos</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>cesaredu-dominio-comunicacao</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>cesaredu-dominio-identidadeacesso</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>cesaredu-dominio-trilhas</artifactId>
+			<artifactId>cesaredu-dominio-cesaredu</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 

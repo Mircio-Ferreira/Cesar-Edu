@@ -30,14 +30,7 @@
 
 	<modules>
 		<module>dominio-compartilhado</module>
-		<module>dominio-acessointerdisciplinar</module>
-		<module>dominio-analisegestor</module>
-		<module>dominio-aprendizagemaluno</module>
-		<module>dominio-avaliacaoprova</module>
-		<module>dominio-catalogocursos</module>
-		<module>dominio-comunicacao</module>
-		<module>dominio-identidadeacesso</module>
-		<module>dominio-trilhas</module>
+		<module>dominio-cesaredu</module>
 		<module>aplicacao</module>
 		<module>infraestrutura</module>
 		<module>ui-backend</module>

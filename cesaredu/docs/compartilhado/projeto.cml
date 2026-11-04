@@ -1,0 +1,18 @@
+Domain dominio {
+	domainVisionStatement = "projeto cesar edu"
+
+	Subdomain cesaredu {
+		type = CORE_DOMAIN
+		domainVisionStatement = "subdominio principal do cesar edu"
+	}
+}
+
+BoundedContext compartilhado {
+	Module compartilhado {
+		Aggregate compartilhado {
+			enum Autorizacao {
+				ADMINISTRADOR, USUARIO
+			}
+		}
+	}
+}

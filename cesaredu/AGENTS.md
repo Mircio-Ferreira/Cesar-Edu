@@ -1,5 +1,7 @@
 # cesaredu
 
+projeto cesar edu
+
 ## Engenharia de software
 - MDE (Model-Driven Engineering)
 - DDD (Domain-Driven Design)
@@ -29,14 +31,7 @@
 - D5 1.0.0-SNAPSHOT
 
 ## Subdomínios
-- acessointerdisciplinar
-- analisegestor
-- aprendizagemaluno
-- avaliacaoprova
-- catalogocursos
-- comunicacao
-- identidadeacesso
-- trilhas
+- cesaredu (subdomínio principal): subdominio principal do cesar edu
 
 ## Maven
 - groupId: cesar.edu

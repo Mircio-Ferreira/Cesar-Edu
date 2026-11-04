@@ -1,0 +1,12 @@
+import "../compartilhado/projeto.cml"
+
+ContextMap {
+	contains cesaredu, compartilhado
+
+	cesaredu Downstream-Upstream compartilhado
+}
+
+BoundedContext cesaredu implements cesaredu {
+	Module cesaredu {
+	}
+}
